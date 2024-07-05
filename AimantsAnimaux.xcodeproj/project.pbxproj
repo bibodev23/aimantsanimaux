@@ -11,6 +11,11 @@
 		3B5F51952C38781000D07E00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5F51942C38781000D07E00 /* ContentView.swift */; };
 		3B5F51972C38781100D07E00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5F51962C38781100D07E00 /* Assets.xcassets */; };
 		3B5F519A2C38781100D07E00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5F51992C38781100D07E00 /* Preview Assets.xcassets */; };
+		3B5F51A12C38783C00D07E00 /* AnimalsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5F51A02C38783C00D07E00 /* AnimalsListView.swift */; };
+		3B5F51A32C38786C00D07E00 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5F51A22C38786C00D07E00 /* AnimalDetailView.swift */; };
+		3B5F51A52C3878A400D07E00 /* AddNewAnimalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5F51A42C3878A400D07E00 /* AddNewAnimalView.swift */; };
+		3B5F51A72C3878CF00D07E00 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5F51A62C3878CF00D07E00 /* ViewModel.swift */; };
+		3B5F51A92C387BAB00D07E00 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5F51A82C387BAB00D07E00 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		3B5F51942C38781000D07E00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B5F51962C38781100D07E00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B5F51992C38781100D07E00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B5F51A02C38783C00D07E00 /* AnimalsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsListView.swift; sourceTree = "<group>"; };
+		3B5F51A22C38786C00D07E00 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
+		3B5F51A42C3878A400D07E00 /* AddNewAnimalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewAnimalView.swift; sourceTree = "<group>"; };
+		3B5F51A62C3878CF00D07E00 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		3B5F51A82C387BAB00D07E00 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +61,15 @@
 		3B5F51912C38781000D07E00 /* AimantsAnimaux */ = {
 			isa = PBXGroup;
 			children = (
+				3B5F51A82C387BAB00D07E00 /* Images.xcassets */,
 				3B5F51922C38781000D07E00 /* AimantsAnimauxApp.swift */,
 				3B5F51942C38781000D07E00 /* ContentView.swift */,
 				3B5F51962C38781100D07E00 /* Assets.xcassets */,
 				3B5F51982C38781100D07E00 /* Preview Content */,
+				3B5F51A02C38783C00D07E00 /* AnimalsListView.swift */,
+				3B5F51A22C38786C00D07E00 /* AnimalDetailView.swift */,
+				3B5F51A42C3878A400D07E00 /* AddNewAnimalView.swift */,
+				3B5F51A62C3878CF00D07E00 /* ViewModel.swift */,
 			);
 			path = AimantsAnimaux;
 			sourceTree = "<group>";
@@ -125,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B5F51A92C387BAB00D07E00 /* Images.xcassets in Resources */,
 				3B5F519A2C38781100D07E00 /* Preview Assets.xcassets in Resources */,
 				3B5F51972C38781100D07E00 /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +154,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B5F51952C38781000D07E00 /* ContentView.swift in Sources */,
+				3B5F51A32C38786C00D07E00 /* AnimalDetailView.swift in Sources */,
 				3B5F51932C38781000D07E00 /* AimantsAnimauxApp.swift in Sources */,
+				3B5F51A52C3878A400D07E00 /* AddNewAnimalView.swift in Sources */,
+				3B5F51A72C3878CF00D07E00 /* ViewModel.swift in Sources */,
+				3B5F51A12C38783C00D07E00 /* AnimalsListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
