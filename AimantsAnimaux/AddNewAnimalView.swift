@@ -30,6 +30,8 @@ struct AddNewAnimalView: View {
                     .keyboardType(.decimalPad)
                 TextField("Poids (en kg)", value: $weight, format: .number)
                     .keyboardType(.decimalPad)
+                TextField("Taille (en cm)", value: $size, format: .number)
+                    .keyboardType(.decimalPad)
             }
             Button(action:  {
                 if (formIsValid) {

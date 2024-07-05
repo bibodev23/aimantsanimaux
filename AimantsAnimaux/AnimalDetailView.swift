@@ -29,6 +29,7 @@ struct AnimalDetailView: View {
                     LineView(title: "Race", value: animal.breed.rawValue)
                     LineView(title: "Age", value: "\(animal.age) an(s)")
                     LineView(title: "Poids", value: "\(animal.weight) kg")
+                    LineView(title: "Taille", value: "\(animal.size) cm")
                 }
                 .padding()
             }
