@@ -71,10 +71,10 @@
 			children = (
 				3B5F51A82C387BAB00D07E00 /* Images.xcassets */,
 				3B5F51922C38781000D07E00 /* AimantsAnimauxApp.swift */,
+				3B5F51A62C3878CF00D07E00 /* ViewModel.swift */,
+				3B532CDA2C388780006853B5 /* Views */,
 				3B5F51962C38781100D07E00 /* Assets.xcassets */,
 				3B5F51982C38781100D07E00 /* Preview Content */,
-				3B532CDA2C388780006853B5 /* Views */,
-				3B5F51A62C3878CF00D07E00 /* ViewModel.swift */,
 			);
 			path = AimantsAnimaux;
 			sourceTree = "<group>";
